@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="FS AI & Technology Consulting — practical AI strategy and decision intelligence for startups and small businesses." />
+  <title>FS AI & Technology Consulting</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <!-- Background decor -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-blobs" aria-hidden="true">
+    <!-- soft, brand-safe abstract blobs -->
+    <svg class="blob blob-a" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+      <path d="M411 80c67 39 112 115 103 190-9 74-72 147-148 196-76 49-164 73-231 40C68 473 51 387 69 312c18-75 72-138 134-187 63-49 146-84 208-45Z" fill="url(#g1)"/>
+      <defs>
+        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#89BBCD" stop-opacity="0.55"/>
+          <stop offset="1" stop-color="#DEC0F5" stop-opacity="0.45"/>
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <svg class="blob blob-b" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+      <path d="M455 142c52 54 64 149 24 227-40 78-133 139-224 133-91-6-181-78-199-170-18-92 36-204 129-239 93-35 218-6 270 49Z" fill="url(#g2)"/>
+      <defs>
+        <linearGradient id="g2" x1="1" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#DEC0F5" stop-opacity="0.45"/>
+          <stop offset="1" stop-color="#89BBCD" stop-opacity="0.35"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="FS AI & Technology Consulting home">
+        <!-- If you have your logo file, place it at assets/img/logo.png and uncomment below -->
+        <!-- <img src="assets/img/logo.png" alt="FS AI & Technology Consulting" class="brand-logo" /> -->
+        <div class="brand-mark" aria-hidden="true">FS</div>
+        <div class="brand-text">
+          <span class="brand-name">AI & Technology</span>
+          <span class="brand-sub">Consulting</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#packages">Engagements</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#contact" class="btn btn-sm btn-outline">Contact</a>
+        <a href="#contact" class="btn btn-sm">Book a strategy call</a>
+      </nav>
+
+      <button class="nav-burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="#services">Services</a>
+      <a href="#approach">Approach</a>
+      <a href="#packages">Engagements</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="pill">
+            <span class="dot"></span>
+            Strategy first • Decisions with accountability
+          </div>
+
+          <h1>Make confident decisions with practical AI.</h1>
+          <p class="lead">
+            We help startups and small businesses turn AI into measurable outcomes—through clear roadmaps, prioritized use cases, and decision-ready dashboards.
+          </p>
+
+          <div class="hero-ctas">
+            <a class="btn" href="#contact">Book a strategy call</a>
+            <a class="btn btn-outline" href="#timeline">See how it works</a>
+          </div>
+
+          <div class="trust">
+            <div class="trust-item">
+              <span class="trust-kicker">Business-first</span>
+              <span class="trust-text">Outcomes over demos</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-kicker">Lean execution</span>
+              <span class="trust-text">Right-size tools & teams</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-kicker">Clarity</span>
+              <span class="trust-text">Dashboards leaders use</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-hidden="true">
+          <!-- custom abstract illustration (nodes + flow) -->
+          <svg viewBox="0 0 560 460" xmlns="http://www.w3.org/2000/svg" class="flow-illustration">
+            <defs>
+              <linearGradient id="flow" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#89BBCD" stop-opacity="0.9"/>
+                <stop offset="1" stop-color="#DEC0F5" stop-opacity="0.85"/>
+              </linearGradient>
+              <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="10" result="blur"/>
+                <feColorMatrix type="matrix"
+                  values="1 0 0 0 0
+                          0 1 0 0 0
+                          0 0 1 0 0
+                          0 0 0 0.35 0" />
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+
+            <rect x="18" y="18" width="524" height="424" rx="22" fill="#FFFFFF" stroke="#E8E8E8"/>
+            <path d="M90 330 C160 250, 230 300, 300 220 S430 170, 470 110" fill="none" stroke="url(#flow)" stroke-width="6" stroke-linecap="round"/>
+            <path d="M95 140 C170 110, 240 140, 300 160 S430 230, 485 260" fill="none" stroke="#0E2841" stroke-opacity="0.12" stroke-width="4" stroke-linecap="round"/>
+
+            <g filter="url(#soft)">
+              <circle cx="90" cy="330" r="14" fill="#0E2841"/>
+              <circle cx="220" cy="290" r="14" fill="#89BBCD"/>
+              <circle cx="300" cy="220" r="14" fill="#0E2841"/>
+              <circle cx="410" cy="165" r="14" fill="#DEC0F5"/>
+              <circle cx="470" cy="110" r="14" fill="#0E2841"/>
+            </g>
+
+            <g opacity="0.75">
+              <rect x="60" y="60" width="170" height="86" rx="16" fill="#F5EFEE" stroke="#E8E8E8"/>
+              <text x="82" y="98" font-family="Inter, sans-serif" font-size="14" fill="#0E2841" font-weight="600">Use case</text>
+              <text x="82" y="122" font-family="Inter, sans-serif" font-size="12" fill="#343D4F">ROI + feasibility</text>
+
+              <rect x="260" y="280" width="230" height="100" rx="16" fill="#F5EFEE" stroke="#E8E8E8"/>
+              <text x="282" y="318" font-family="Inter, sans-serif" font-size="14" fill="#0E2841" font-weight="600">Decision dashboard</text>
+              <text x="282" y="342" font-family="Inter, sans-serif" font-size="12" fill="#343D4F">Signal → insight → action</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEMS / APPROACH -->
+    <section class="section" id="approach">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Most teams don’t need more AI. They need clearer decisions.</h2>
+          <p>
+            We align people, process, and technology so your team can make faster, better decisions—without bloated tools or unclear ownership.
+          </p>
+        </div>
+
+        <div class="card-grid reveal">
+          <article class="card">
+            <h3>Hype → no ROI</h3>
+            <p>We prioritize the few use cases that move metrics.</p>
+          </article>
+          <article class="card">
+            <h3>Tool overload</h3>
+            <p>Pick the simplest stack that works and scales.</p>
+          </article>
+          <article class="card">
+            <h3>Talent confusion</h3>
+            <p>Define the skills you need, then hire/contract smart.</p>
+          </article>
+          <article class="card">
+            <h3>Dashboards nobody trusts</h3>
+            <p>Decision-ready views with clear owners and inputs.</p>
+          </article>
+          <article class="card">
+            <h3>Unclear priorities</h3>
+            <p>Roadmaps that fit your budget, timeline, and team.</p>
+          </article>
+          <article class="card card-accent">
+            <h3>Outcome-first</h3>
+            <p>Strategy, then execution—always tied to measurable results.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Services</h2>
+          <p>Advisory + implementation planning designed for lean teams.</p>
+        </div>
+
+        <div class="service-grid reveal">
+          <div class="service">
+            <div class="icon">◎</div>
+            <h3>AI & Tech Strategy</h3>
+            <p>Target outcomes, define success metrics, and plan execution.</p>
+          </div>
+          <div class="service">
+            <div class="icon">⌁</div>
+            <h3>AI Talent & Skill Strategy</h3>
+            <p>Roles, capabilities, hiring plan, and vendor decisions.</p>
+          </div>
+          <div class="service">
+            <div class="icon">⟡</div>
+            <h3>Targeted AI Use Cases</h3>
+            <p>Prioritize high-impact use cases with feasibility scoring.</p>
+          </div>
+          <div class="service">
+            <div class="icon">◈</div>
+            <h3>Fractional CTO/CIO</h3>
+            <p>Senior leadership without the full-time overhead.</p>
+          </div>
+          <div class="service">
+            <div class="icon">⧉</div>
+            <h3>Decision Intelligence Dashboards</h3>
+            <p>Executive dashboards that make action obvious.</p>
+          </div>
+          <div class="service">
+            <div class="icon">✦</div>
+            <h3>Executive Training</h3>
+            <p>AI literacy for leaders and teams—practical, not theoretical.</p>
+          </div>
+        </div>
+
+        <div class="callout reveal">
+          <div>
+            <h3>Need something specific?</h3>
+            <p>Marketing/branding support, social strategy, and focused workshops are available as add-ons.</p>
+          </div>
+          <a class="btn btn-outline" href="#contact">Ask about add-ons</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENGAGEMENTS -->
+    <section class="section" id="packages">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Engagements</h2>
+          <p>Clear options that match your stage — built for speed, focus, and accountability.</p>
+        </div>
+
+        <div class="pricing-grid reveal">
+          <article class="price">
+            <div class="tag">Starter</div>
+            <h3>Practical AI</h3>
+            <p class="price-sub">A clear starting point and near-term wins.</p>
+            <ul>
+              <li>Discovery + goals</li>
+              <li>Use case shortlist</li>
+              <li>Roadmap (30–60 days)</li>
+              <li>Tooling recommendations</li>
+            </ul>
+            <a class="btn btn-outline" href="#contact">Start here</a>
+          </article>
+
+          <article class="price featured">
+            <div class="tag">Growth</div>
+            <h3>Decision Engine</h3>
+            <p class="price-sub">Operationalize insights and execution.</p>
+            <ul>
+              <li>Prioritized roadmap</li>
+              <li>Dashboard blueprint</li>
+              <li>Data + process alignment</li>
+              <li>Team capability plan</li>
+            </ul>
+            <a class="btn" href="#contact">Book a strategy call</a>
+          </article>
+
+          <article class="price">
+            <div class="tag">Scale</div>
+            <h3>Fractional Leadership</h3>
+            <p class="price-sub">Ongoing leadership and accountability.</p>
+            <ul>
+              <li>Fractional CTO/CIO</li>
+              <li>Vendor + hiring support</li>
+              <li>Governance + KPIs</li>
+              <li>Quarterly planning</li>
+            </ul>
+            <a class="btn btn-outline" href="#contact">Explore scale</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section" id="timeline">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>How it works</h2>
+          <p>A lean, fast-moving process built for startups and small teams.</p>
+        </div>
+
+        <div class="steps reveal">
+          <div class="step">
+            <span class="step-num">1</span>
+            <div>
+              <h3>Discovery</h3>
+              <p>Clarify goals, constraints, and decision points (1–5 weeks).</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <div>
+              <h3>Analysis</h3>
+              <p>Assess data, processes, tools, and talent (1–3 weeks).</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <div>
+              <h3>Roadmap</h3>
+              <p>Prioritize use cases + define success metrics (1–2 weeks).</p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step-num">4</span>
+            <div>
+              <h3>Decisions</h3>
+              <p>Support execution choices, dashboards, and iteration (days).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline reveal" aria-label="Example timeline">
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div>
+              <h3>Intro</h3>
+              <p>Quick alignment + scope definition</p>
+            </div>
+          </div>
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div>
+              <h3>Month 1</h3>
+              <p>Roadmap + first use case selection</p>
+            </div>
+          </div>
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div>
+              <h3>Month 3</h3>
+              <p>Dashboard + process integration</p>
+            </div>
+          </div>
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div>
+              <h3>Month 6</h3>
+              <p>Scale plan + operating rhythm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact reveal">
+          <div class="contact-copy">
+            <h2>Let’s make AI practical.</h2>
+            <p>
+              Tell us what you’re building and where decisions feel stuck. We’ll respond with a clear next step.
+            </p>
+
+            <div class="contact-cards">
+              <div class="mini">
+                <h3>Startups</h3>
+                <p>Fast roadmap + the right first bets.</p>
+              </div>
+              <div class="mini">
+                <h3>Small businesses</h3>
+                <p>Streamline operations + dashboards that drive action.</p>
+              </div>
+            </div>
+
+            <p class="contact-note">
+              Prefer email? <a href="mailto:andrea@fetchserveai.com">andrea@fetchserveai.com</a>
+            </p>
+          </div>
+
+          <div class="card calendly-card">
+            <h3>Book a strategy call</h3>
+            <p class="cal-sub">
+              Choose a time that works. We’ll align on goals, constraints, and the fastest path to measurable outcomes.
+            </p>
+
+            <a class="btn" href="https://calendly.com/andrea-fetchserveai" target="_blank" rel="noopener">
+              Open Calendly
+            </a>
+
+            <div class="cal-divider"></div>
+
+            <p class="small">
+              Or email <a href="mailto:andrea@fetchserveai.com"><strong>andrea@fetchserveai.com</strong></a> with a quick note:
+              your business, what you’re building, and where decisions feel stuck.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-mark small" aria-hidden="true">FS</span>
+          <div>
+            <div class="footer-title">FS AI & Technology Consulting</div>
+            <div class="footer-sub">Strategy-first • Practical execution</div>
+          </div>
+        </div>
+        <div class="footer-meta">© <span id="year"></span> FS AI & Technology Consulting. All rights reserved.</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#packages">Engagements</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
